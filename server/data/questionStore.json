@@ -7,6 +7,62 @@
         "marks": 5
     },
     {
+        "question": "Explain the concept of refraction in physics.",
+        "subject": "Physics",
+        "topic": "Optics",
+        "difficulty": "Easy",
+        "marks": 6
+    },
+    {
+        "question": "Define the term 'programming paradigm' in computer science.",
+        "subject": "Computer Science",
+        "topic": "Programming Paradigms",
+        "difficulty": "Easy",
+        "marks": 7
+    },
+    {
+        "question": "Solve the equation 2y + 5 = 17.",
+        "subject": "Mathematics",
+        "topic": "Linear Equations",
+        "difficulty": "Easy",
+        "marks": 5
+    },
+    {
+        "question": "Who is known as the 'Father of Computer Science'?",
+        "subject": "Computer Science",
+        "topic": "Pioneers",
+        "difficulty": "Easy",
+        "marks": 8
+    },
+    {
+        "question": "What is the main function of the mitochondria in a cell?",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Easy",
+        "marks": 7
+    },
+    {
+        "question": "In which year did the Industrial Revolution begin?",
+        "subject": "History",
+        "topic": "Industrial Revolution",
+        "difficulty": "Easy",
+        "marks": 6
+    },
+    {
+        "question": "Name three programming languages commonly used for web development.",
+        "subject": "Computer Science",
+        "topic": "Web Development",
+        "difficulty": "Easy",
+        "marks": 7
+    },
+    {
+        "question": "What is the largest planet in our solar system?",
+        "subject": "Astronomy",
+        "topic": "Planets",
+        "difficulty": "Easy",
+        "marks": 5
+    },
+    {
         "question": "Explain the concept of gravitational force.",
         "subject": "Physics",
         "topic": "Forces",
@@ -68,6 +124,62 @@
         "topic": "Programming Paradigms",
         "difficulty": "Medium",
         "marks": 10
+    },
+    {
+        "question": "Discuss the principles of encapsulation in object-oriented programming.",
+        "subject": "Computer Science",
+        "topic": "Object-Oriented Programming",
+        "difficulty": "Medium",
+        "marks": 11
+    },
+    {
+        "question": "Compare and contrast inheritance and polymorphism in OOP.",
+        "subject": "Computer Science",
+        "topic": "Object-Oriented Programming",
+        "difficulty": "Medium",
+        "marks": 10
+    },
+    {
+        "question": "Explain the concept of abstraction and provide an example in programming.",
+        "subject": "Computer Science",
+        "topic": "Object-Oriented Programming",
+        "difficulty": "Medium",
+        "marks": 12
+    },
+    {
+        "question": "Discuss the importance of interfaces in object-oriented design.",
+        "subject": "Computer Science",
+        "topic": "Object-Oriented Programming",
+        "difficulty": "Medium",
+        "marks": 10
+    },
+    {
+        "question": "Describe the concept of a 'constructor' in OOP languages.",
+        "subject": "Computer Science",
+        "topic": "Object-Oriented Programming",
+        "difficulty": "Medium",
+        "marks": 9
+    },
+    {
+        "question": "What is the role of encapsulation in maintaining code integrity?",
+        "subject": "Computer Science",
+        "topic": "Object-Oriented Programming",
+        "difficulty": "Medium",
+        "marks": 11
+    },
+    {
+        "question": "Explain the concept of 'method overloading' in OOP.",
+        "subject": "Computer Science",
+        "topic": "Object-Oriented Programming",
+        "difficulty": "Medium",
+        "marks": 10
+    },
+    {
+        "question": "Discuss the benefits of using polymorphism in software development.",
+        "subject": "Computer Science",
+        "topic": "Object-Oriented Programming",
+        "difficulty": "Medium",
+        "marks": 12
     },
     {
         "question": "Solve the quadratic equation: ax^2 + bx + c = 0.",
@@ -138,20 +250,6 @@
         "topic": "Algorithms",
         "difficulty": "Hard",
         "marks": 18
-    },
-    {
-        "question": "Your additional question here.",
-        "subject": "Your Subject",
-        "topic": "Your Topic",
-        "difficulty": "Medium",
-        "marks": 8
-    },
-    {
-        "question": "Another additional question.",
-        "subject": "Another Subject",
-        "topic": "Another Topic",
-        "difficulty": "Easy",
-        "marks": 7
     },
     {
         "question": "What is the speed of light?",
@@ -245,6 +343,62 @@
         "marks": 18
     },
     {
+        "question": "Explain the concept of 'non-blocking' in the context of Node.js.",
+        "subject": "Node.js",
+        "topic": "Asynchronous Programming",
+        "difficulty": "Hard",
+        "marks": 17
+    },
+    {
+        "question": "Discuss the role of 'Callback Functions' in Node.js.",
+        "subject": "Node.js",
+        "topic": "Asynchronous Programming",
+        "difficulty": "Hard",
+        "marks": 18
+    },
+    {
+        "question": "What is 'Promisify' in Node.js, and how does it help in handling asynchronous operations?",
+        "subject": "Node.js",
+        "topic": "Asynchronous Programming",
+        "difficulty": "Hard",
+        "marks": 19
+    },
+    {
+        "question": "Explain the purpose of the 'fs' module in Node.js.",
+        "subject": "Node.js",
+        "topic": "File System",
+        "difficulty": "Hard",
+        "marks": 18
+    },
+    {
+        "question": "Discuss the role of 'Event Emitters' in Node.js.",
+        "subject": "Node.js",
+        "topic": "Events",
+        "difficulty": "Hard",
+        "marks": 17
+    },
+    {
+        "question": "How does Node.js handle multiple requests simultaneously?",
+        "subject": "Node.js",
+        "topic": "Concurrency",
+        "difficulty": "Hard",
+        "marks": 19
+    },
+    {
+        "question": "Explain the concept of 'Buffer' in Node.js and its use cases.",
+        "subject": "Node.js",
+        "topic": "Buffers",
+        "difficulty": "Hard",
+        "marks": 18
+    },
+    {
+        "question": "Discuss the advantages of using the 'Cluster' module in Node.js for scaling applications.",
+        "subject": "Node.js",
+        "topic": "Scaling",
+        "difficulty": "Hard",
+        "marks": 20
+    },
+    {
         "question": "Write a simple HTTP server using the 'http' module in Node.js.",
         "subject": "Node.js",
         "topic": "HTTP Module",
@@ -278,5 +432,11 @@
         "topic": "npm",
         "difficulty": "Medium",
         "marks": 10
+    },
+    {
+        "question": "Solve the quadratic equation: ax^2 + c = 0.",
+        "subject": "Mathematics",
+        "topic": "Hard",
+        "difficulty": 10
     }
 ]
