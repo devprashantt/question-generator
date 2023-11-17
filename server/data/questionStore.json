@@ -1,0 +1,226 @@
+[
+    {
+        "question": "What is the speed of light?",
+        "subject": "Physics",
+        "topic": "Waves",
+        "difficulty": "Easy",
+        "marks": 5
+    },
+    {
+        "question": "Explain the concept of object-oriented programming.",
+        "subject": "Computer Science",
+        "topic": "Programming Paradigms",
+        "difficulty": "Medium",
+        "marks": 10
+    },
+    {
+        "question": "Solve the quadratic equation: ax^2 + bx + c = 0.",
+        "subject": "Mathematics",
+        "topic": "Quadratic Equations",
+        "difficulty": "Hard",
+        "marks": 15
+    },
+    {
+        "question": "What is the capital of France?",
+        "subject": "General Knowledge",
+        "topic": "World Capitals",
+        "difficulty": "Easy",
+        "marks": 5
+    },
+    {
+        "question": "Explain the working principle of a solar cell.",
+        "subject": "Physics",
+        "topic": "Electronics",
+        "difficulty": "Medium",
+        "marks": 12
+    },
+    {
+        "question": "Write a program to find the factorial of a number.",
+        "subject": "Computer Science",
+        "topic": "Algorithms",
+        "difficulty": "Hard",
+        "marks": 18
+    },
+    {
+        "question": "What is the speed of light?",
+        "subject": "Physics",
+        "topic": "Waves",
+        "difficulty": "Easy",
+        "marks": 5
+    },
+    {
+        "question": "Explain the concept of object-oriented programming.",
+        "subject": "Computer Science",
+        "topic": "Programming Paradigms",
+        "difficulty": "Medium",
+        "marks": 10
+    },
+    {
+        "question": "Solve the quadratic equation: ax^2 + bx + c = 0.",
+        "subject": "Mathematics",
+        "topic": "Quadratic Equations",
+        "difficulty": "Hard",
+        "marks": 15
+    },
+    {
+        "question": "What is the capital of France?",
+        "subject": "General Knowledge",
+        "topic": "World Capitals",
+        "difficulty": "Easy",
+        "marks": 5
+    },
+    {
+        "question": "Explain the working principle of a solar cell.",
+        "subject": "Physics",
+        "topic": "Electronics",
+        "difficulty": "Medium",
+        "marks": 12
+    },
+    {
+        "question": "Write a program to find the factorial of a number.",
+        "subject": "Computer Science",
+        "topic": "Algorithms",
+        "difficulty": "Hard",
+        "marks": 18
+    },
+    {
+        "question": "Your additional question here.",
+        "subject": "Your Subject",
+        "topic": "Your Topic",
+        "difficulty": "Medium",
+        "marks": 8
+    },
+    {
+        "question": "Another additional question.",
+        "subject": "Another Subject",
+        "topic": "Another Topic",
+        "difficulty": "Easy",
+        "marks": 7
+    },
+    {
+        "question": "What is the speed of light?",
+        "subject": "Physics",
+        "topic": "Waves",
+        "difficulty": "Easy",
+        "marks": 5
+    },
+    {
+        "question": "Explain the concept of object-oriented programming.",
+        "subject": "Computer Science",
+        "topic": "Programming Paradigms",
+        "difficulty": "Medium",
+        "marks": 10
+    },
+    {
+        "question": "Solve the quadratic equation: ax^2 + bx + c = 0.",
+        "subject": "Mathematics",
+        "topic": "Quadratic Equations",
+        "difficulty": "Hard",
+        "marks": 15
+    },
+    {
+        "question": "What is the capital of France?",
+        "subject": "General Knowledge",
+        "topic": "World Capitals",
+        "difficulty": "Easy",
+        "marks": 5
+    },
+    {
+        "question": "Explain the working principle of a solar cell.",
+        "subject": "Physics",
+        "topic": "Electronics",
+        "difficulty": "Medium",
+        "marks": 12
+    },
+    {
+        "question": "Write a program to find the factorial of a number.",
+        "subject": "Computer Science",
+        "topic": "Algorithms",
+        "difficulty": "Hard",
+        "marks": 18
+    },
+    {
+        "question": "What is the primary function of the mitochondria?",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Medium",
+        "marks": 10
+    },
+    {
+        "question": "Who is the author of the play 'Romeo and Juliet'?",
+        "subject": "Literature",
+        "topic": "Drama",
+        "difficulty": "Easy",
+        "marks": 8
+    },
+    {
+        "question": "Explain the event-driven architecture in Node.js.",
+        "subject": "Node.js",
+        "topic": "Architecture",
+        "difficulty": "Medium",
+        "marks": 10
+    },
+    {
+        "question": "What is npm, and how is it used in Node.js?",
+        "subject": "Node.js",
+        "topic": "Package Management",
+        "difficulty": "Easy",
+        "marks": 8
+    },
+    {
+        "question": "How does asynchronous programming work in Node.js? Provide an example.",
+        "subject": "Node.js",
+        "topic": "Asynchronous Programming",
+        "difficulty": "Hard",
+        "marks": 15
+    },
+    {
+        "question": "Explain the purpose of the 'require' function in Node.js.",
+        "subject": "Node.js",
+        "topic": "Modules",
+        "difficulty": "Medium",
+        "marks": 12
+    },
+    {
+        "question": "What is the 'Event Loop' in Node.js, and why is it important?",
+        "subject": "Node.js",
+        "topic": "Event Loop",
+        "difficulty": "Hard",
+        "marks": 18
+    },
+    {
+        "question": "Write a simple HTTP server using the 'http' module in Node.js.",
+        "subject": "Node.js",
+        "topic": "HTTP Module",
+        "difficulty": "Easy",
+        "marks": 10
+    },
+    {
+        "question": "Explain the concept of middleware in Express.js.",
+        "subject": "Node.js",
+        "topic": "Express.js",
+        "difficulty": "Medium",
+        "marks": 12
+    },
+    {
+        "question": "What is the purpose of the 'package.json' file in a Node.js project?",
+        "subject": "Node.js",
+        "topic": "Project Configuration",
+        "difficulty": "Easy",
+        "marks": 8
+    },
+    {
+        "question": "How can you handle errors in a Node.js application?",
+        "subject": "Node.js",
+        "topic": "Error Handling",
+        "difficulty": "Hard",
+        "marks": 15
+    },
+    {
+        "question": "What is the role of 'npm scripts' in a Node.js project?",
+        "subject": "Node.js",
+        "topic": "npm",
+        "difficulty": "Medium",
+        "marks": 10
+    }
+]
