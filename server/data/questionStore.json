@@ -7,6 +7,62 @@
         "marks": 5
     },
     {
+        "question": "Explain the concept of gravitational force.",
+        "subject": "Physics",
+        "topic": "Forces",
+        "difficulty": "Easy",
+        "marks": 6
+    },
+    {
+        "question": "What is the formula for calculating kinetic energy?",
+        "subject": "Physics",
+        "topic": "Energy",
+        "difficulty": "Easy",
+        "marks": 5
+    },
+    {
+        "question": "Define the term 'algorithm' in computer science.",
+        "subject": "Computer Science",
+        "topic": "Algorithms",
+        "difficulty": "Easy",
+        "marks": 7
+    },
+    {
+        "question": "How does a switch statement work in programming?",
+        "subject": "Computer Science",
+        "topic": "Programming",
+        "difficulty": "Easy",
+        "marks": 6
+    },
+    {
+        "question": "Solve the equation 3x + 7 = 22.",
+        "subject": "Mathematics",
+        "topic": "Linear Equations",
+        "difficulty": "Easy",
+        "marks": 5
+    },
+    {
+        "question": "Who is the author of the book 'To Kill a Mockingbird'?",
+        "subject": "Literature",
+        "topic": "Classic Literature",
+        "difficulty": "Easy",
+        "marks": 8
+    },
+    {
+        "question": "What is the capital of Japan?",
+        "subject": "Geography",
+        "topic": "World Capitals",
+        "difficulty": "Easy",
+        "marks": 5
+    },
+    {
+        "question": "Describe the process of photosynthesis in plants.",
+        "subject": "Biology",
+        "topic": "Photosynthesis",
+        "difficulty": "Easy",
+        "marks": 7
+    },
+    {
         "question": "Explain the concept of object-oriented programming.",
         "subject": "Computer Science",
         "topic": "Programming Paradigms",
