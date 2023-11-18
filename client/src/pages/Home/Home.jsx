@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 import useQuestions from "../../api/useQuestion";
 
-import { Input, Button } from "../../components";
+import { Input, Button, Question } from "../../components";
 
 const Home = () => {
   const { generateQuestionPaper } = useQuestions();
@@ -24,7 +24,6 @@ const Home = () => {
         console.log(error);
       } else {
         setQuestionPaperData(responseData);
-        console.log(responseData);
       }
     });
   };
@@ -101,12 +100,14 @@ const Home = () => {
       <div>
         {questionPaperData?.questions?.map((questionData, index) => {
           return (
-            <div key={index}>
-              <div>{questionData.question}</div>
-              <div>{questionData.difficulty}</div>
-              <div>{questionData.marks}</div>
-              <div>{questionData.topic}</div>
-            </div>
+            <Question
+              key={index}
+              question={questionData.question}
+              marks={questionData.marks}
+              difficulty={questionData.difficulty}
+              topic={questionData.topic}
+              subject={questionData.subject}
+            />
           );
         })}
       </div>

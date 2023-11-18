@@ -75,8 +75,6 @@ const useQuestion = () => {
   const generateQuestionPaper = async (payload, cb) => {
     setLoading(true);
 
-    console.log(payload);
-
     try {
       const response = await axios.post(
         `${import.meta.env.VITE_BACKEND_URL}/questions/generate`,
@@ -95,6 +93,8 @@ const useQuestion = () => {
 
       const data = await response.data;
 
+      console.log(data);
+
       if (cb && typeof cb === "function") {
         cb(data);
         toast.success("Question fetched successfully");
@@ -103,7 +103,6 @@ const useQuestion = () => {
       console.log(e);
       setError(true);
     } finally {
-      console.log("finally");
       setLoading(false);
     }
   };

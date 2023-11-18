@@ -2,7 +2,7 @@ import axios from "axios";
 
 import { Home } from "./pages";
 
-axios.defaults.baseURL = "http://localhost:3000";
+axios.defaults.baseURL = import.meta.env.VITE_BACKEND_URL;
 
 const App = () => {
   return (

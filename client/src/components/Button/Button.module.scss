@@ -1,0 +1,23 @@
+.btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: #000000;
+
+    button {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        font-size: 1rem;
+        color: #fff;
+        background-color: inherit;
+    }
+}
