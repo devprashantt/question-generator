@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useState } from "react";
+import { toast } from "react-toastify";
 
 const useQuestion = () => {
   const [loading, setLoading] = useState(false);
@@ -20,14 +21,15 @@ const useQuestion = () => {
       );
 
       if (!response.ok) {
-        const data = await response.json();
+        const data = await response.data;
         throw new Error(data.error || "Some error occurred, please try again");
       }
 
-      const data = await response.json();
+      const data = await response.data;
 
       if (cb && typeof cb === "function") {
         cb(data);
+        toast.success("Question fetched successfully");
       }
     } catch (e) {
       setError(true);
@@ -52,14 +54,15 @@ const useQuestion = () => {
       );
 
       if (!response.ok) {
-        const data = await response.json();
+        const data = await response.data;
         throw new Error(data.error || "Some error occurred, please try again");
       }
 
-      const data = await response.json();
+      const data = await response.data;
 
       if (cb && typeof cb === "function") {
         cb(data);
+        toast.success("Question fetched successfully");
       }
     } catch (e) {
       setError(true);
@@ -72,6 +75,8 @@ const useQuestion = () => {
   const generateQuestionPaper = async (payload, cb) => {
     setLoading(true);
 
+    console.log(payload);
+
     try {
       const response = await axios.post(
         `${import.meta.env.VITE_BACKEND_URL}/questions/generate`,
@@ -83,19 +88,22 @@ const useQuestion = () => {
         }
       );
 
-      if (!response.ok) {
-        const data = await response.json();
+      if (response.statusText !== "OK") {
+        const data = await response.data;
         throw new Error(data.error || "Some error occurred, please try again");
       }
 
-      const data = await response.json();
+      const data = await response.data;
 
       if (cb && typeof cb === "function") {
         cb(data);
+        toast.success("Question fetched successfully");
       }
     } catch (e) {
+      console.log(e);
       setError(true);
     } finally {
+      console.log("finally");
       setLoading(false);
     }
   };
@@ -115,14 +123,15 @@ const useQuestion = () => {
       );
 
       if (!response.ok) {
-        const data = await response.json();
+        const data = await response.data;
         throw new Error(data.error || "Some error occurred, please try again");
       }
 
-      const data = await response.json();
+      const data = await response.data;
 
       if (cb && typeof cb === "function") {
         cb(data);
+        toast.success("Question fetched successfully");
       }
     } catch (e) {
       setError(true);
