@@ -34,8 +34,9 @@ const Home = () => {
 
   return (
     <div className={styles.body}>
-      <div>
-        <div>
+      <div className={styles.inputs}>
+        <div className={styles.total}>
+          <p>Total marks</p>
           <Input
             type="number"
             name="totalMarks"
@@ -45,52 +46,61 @@ const Home = () => {
             }
           />
         </div>
-        <div>
+        <div className={styles.diffs}>
           {/* INPUT FOR EACH EASY MEDIUM HARD */}
-          <Input
-            type="number"
-            name="easy"
-            value={formData.difficultyDistribution.Easy}
-            onChange={(e) =>
-              setFormData({
-                ...formData,
-                difficultyDistribution: {
-                  ...formData.difficultyDistribution,
-                  Easy: e.target.value,
-                },
-              })
-            }
-          />
-          <Input
-            type="number"
-            name="medium"
-            value={formData.difficultyDistribution.Medium}
-            onChange={(e) =>
-              setFormData({
-                ...formData,
-                difficultyDistribution: {
-                  ...formData.difficultyDistribution,
-                  Medium: e.target.value,
-                },
-              })
-            }
-          />
-          <Input
-            type="number"
-            name="hard"
-            value={formData.difficultyDistribution.Hard}
-            onChange={(e) =>
-              setFormData({
-                ...formData,
-                difficultyDistribution: {
-                  ...formData.difficultyDistribution,
-                  Hard: e.target.value,
-                },
-              })
-            }
-          />
+          <div className={styles.diff}>
+            <p>Easy</p>
+            <Input
+              type="number"
+              name="easy"
+              value={formData.difficultyDistribution.Easy}
+              onChange={(e) =>
+                setFormData({
+                  ...formData,
+                  difficultyDistribution: {
+                    ...formData.difficultyDistribution,
+                    Easy: e.target.value,
+                  },
+                })
+              }
+            />
+          </div>
+          <div className={styles.diff}>
+            <p>Medium</p>
+            <Input
+              type="number"
+              name="medium"
+              value={formData.difficultyDistribution.Medium}
+              onChange={(e) =>
+                setFormData({
+                  ...formData,
+                  difficultyDistribution: {
+                    ...formData.difficultyDistribution,
+                    Medium: e.target.value,
+                  },
+                })
+              }
+            />
+          </div>
+          <div className={styles.diff}>
+            <p>Hard</p>
+            <Input
+              type="number"
+              name="hard"
+              value={formData.difficultyDistribution.Hard}
+              onChange={(e) =>
+                setFormData({
+                  ...formData,
+                  difficultyDistribution: {
+                    ...formData.difficultyDistribution,
+                    Hard: e.target.value,
+                  },
+                })
+              }
+            />
+          </div>
         </div>
-        <div>
+        <div className={styles.button}>
           <Button
             text="Generate Question Paper"
             onClick={handleGenerateQuestionPaper}
