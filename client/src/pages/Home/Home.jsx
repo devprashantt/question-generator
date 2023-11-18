@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-
+import styles from "./Home.module.scss";
 import useQuestions from "../../api/useQuestion";
 
 import { Input, Button, Question } from "../../components";
@@ -33,7 +33,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div>
+    <div className={styles.body}>
       <div>
         <div>
           <Input
@@ -97,7 +97,7 @@ const Home = () => {
           />
         </div>
       </div>
-      <div>
+      <div className={styles.paper}>
         {questionPaperData?.questions?.map((questionData, index) => {
           return (
             <Question

@@ -7,17 +7,19 @@ const Question = ({ question, marks, difficulty, topic, subject }) => {
       <div className={styles.question}>
         <h2>{question}</h2>
       </div>
-      <div className={styles.marks}>
-        <h2>{marks}</h2>
-      </div>
-      <div className={styles.difficulty}>
-        <h2>{difficulty}</h2>
-      </div>
-      <div className={styles.topic}>
-        <h2>{topic}</h2>
-      </div>
-      <div className={styles.subject}>
-        <h2>{subject}</h2>
+      <div className={styles.data}>
+        <div className={styles.marks}>
+          <p>{marks}</p>
+        </div>
+        <div className={styles.difficulty}>
+          <p>{difficulty}</p>
+        </div>
+        <div className={styles.topic}>
+          <p>{topic}</p>
+        </div>
+        <div className={styles.subject}>
+          <p>{subject}</p>
+        </div>
       </div>
     </div>
   );

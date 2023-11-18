@@ -86,6 +86,8 @@ const useQuestion = () => {
         }
       );
 
+      console.log(response);
+
       if (response.statusText !== "OK") {
         const data = await response.data;
         throw new Error(data.error || "Some error occurred, please try again");
