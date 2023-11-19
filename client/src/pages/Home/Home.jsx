@@ -5,7 +5,7 @@ import useQuestions from "../../api/useQuestion";
 import { Input, Button, Question } from "../../components";
 
 const Home = () => {
-  const { generateQuestionPaper } = useQuestions();
+  const { generateQuestionPaper, loading } = useQuestions();
 
   const [formData, setFormData] = useState({
     totalMarks: 100,
@@ -102,7 +102,11 @@ const Home = () => {
         </div>
         <div className={styles.button}>
           <Button
-            text="Generate Question Paper"
+            text={
+              loading
+                ? "Generating question paper..."
+                : "Generate question paper"
+            }
             onClick={handleGenerateQuestionPaper}
           />
         </div>
