@@ -159,6 +159,29 @@ const generateQuestionPaper = async (req, res) => {
   }
 };
 
+const generateAIQuestion = async (req, res) => {
+  try {
+    // GENERATE VIA CHAT GPT API
+    const totalMarks = req.body.totalMarks;
+    const difficultyDistribution = req.body.difficultyDistribution;
+
+    if (!totalMarks || !difficultyDistribution) {
+      return res.status(400).json({
+        error:
+          "Invalid input. Please provide totalMarks and difficultyDistribution.",
+      });
+    }
+
+    const questions = questionService.getAllQuestions();
+
+    const questionPaper = [];
+    let totalMarksGenerated = 0;
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: "Internal Server Error" });
+  }
+};
+
 module.exports = {
   getAllQuestions,
   getRandomQuestion,
